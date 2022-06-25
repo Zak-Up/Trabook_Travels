@@ -184,13 +184,19 @@
   color: rgb(86, 83, 83);
 }
 
-                                /* ======== EXPLORER ========== */
+.explore_btn{
+  margin-left: 12rem;
+}
+
+
+/* ======== EXPLORER ========== */
+
 .explorer{
-  background: linear-gradient(to right, #fa743638, #fff);
+  background: linear-gradient(to right, #ecd8ce38, #fff);
   margin-top: 6rem;
   height: 6rem;
   width: 800px;
-  margin-left: 16rem;
+  margin-left: 20%;
   margin-bottom: 4rem;
   border-radius: 5px;
   box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.186);
@@ -226,6 +232,7 @@
   margin-top: 2rem;
   margin-left: 0.5rem;
   color: rgba(0, 0, 0, 0.467);
+  font-size: 13px;
 }
 
 .date{
@@ -237,6 +244,7 @@
   margin-top: 2rem;
   margin-left: 12rem;
   color: rgba(0, 0, 0, 0.467);
+  font-size: 13px;
 }
 
 .guest{
@@ -248,9 +256,10 @@
   margin-top: 2rem;
   margin-left: 22rem;
   color: rgba(0, 0, 0, 0.467);
+  font-size: 13px;
 }
 
-/*  ========== TITULO 1 JESUS  =========== */
+/*  ========== THINGS YOU NEED   =========== */
 
 .titulo {
   font-size: 48px;
@@ -273,36 +282,39 @@
 .seccion_1{
   background-color: #F7F8FC;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .section1{
   margin-top: 2rem;
 }
 
-.card{
+.card-thing{
   padding: 1rem;
 }
 
-.card:hover{
+.card-thing:hover{
   transition: 1s;
   transform: translateY(-.25rem);
 }
 
-.card img{
+.card-thing img{
   margin-top: 1rem;
   margin-left: 0.5rem;
 }
 
 /*           ====== VACATION PLAN ======           */
+
 .vacation-title{
-  margin-top: 6rem;
+  margin-top: 3rem;
   text-align: center;
   background-color: #fff;
   padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .vacation-title h1{
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 48px;
   text-align: center;
 }
@@ -325,19 +337,169 @@
 }
 
 .buttons_vacation button{
+  margin-top: 0.5rem;
+  display: inline;
+  background-color: transparent;
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   font-size: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.334);
+  color: rgba(0, 0, 0, 0.364);
+}
+
+.buttons_vacation button:hover{
+  background-color: #FA7436;
+  border: none;
+  color: #F7F8FC;
 }
 
 .btn-right{
-  background-color: #FA7436;
-  color: #fff;
-  border: none;
+ margin-left: 1.5rem;
 }
 
 .btn-left{
-    border: 1px solid rgba(0, 0, 0, 0.334);
-    color: rgba(0, 0, 0, 0.364);
+  margin-left: 65%;
+}
+
+.card-vacation:hover{
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+
+.card-vacation p{
+  font-size: 13px;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.card-vacation h6{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.485);
+}
+
+.card-vacation h5{
+  font-size: 14px;
+}
+
+.bxs-star{
+  color: rgb(235, 184, 16);
+  font-size: 15px;
+}
+
+/*   =========== FOOTER =========== */
+.footer-container{
+  background-color: #F7F8FC;
+  height: 250px;
+  padding-top: 2rem;
+}
+
+.row-social{
+  margin-left: 15% !important;
+}
+
+.social{
+  width: 40px;
+  height: 40px;
+  background-color: #FA7436;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social-btns{
+  height: 60px !important;
+}
+
+.social-i{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* ---====== For Small Devices ======--- */
+@media screen and (max-width: 390px) {
+
+  .journey {
+      margin-top: 2rem !important;
+      text-align: center;
+    }
+
+    .journey h1 {
+      font-size: 40px !important;
+    }
+  
+    .journey p {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.729);
+      margin-top: 2rem;
+    }
+
+    .pick {
+      margin-top: 3rem;
+      margin-left: 0;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+    }
+    .tourist img{
+      width: 350px;
+    }
+    .star {
+      margin-left: 0;
+    }
+
+    .awards{
+      margin-left: 0;
+    }
+    
+    .explore {
+      margin-left: 10rem;
+    }
+
+    .explorer{
+      width: 200px;
+    }
+
+    .titulo {
+      font-size: 32px;
+    }
+  
+    .parrafo1 {
+      color: rgba(0, 0, 0, 0.678);
+      width: 75%;
+    }
+
+    .vacation-title {
+      margin-top: 2rem;
+    }
+  
+    .vacation-title h1 {
+      margin-top: 1rem;
+      font-size: 45px;
+    }
+
+    .vacation-title p {
+      width: 70%;
+      font-size: 12px;
+    }
+  
+    .buttons_vacation button {
+      display: none;
+    }
+
+}
+
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .6rem;
+  background-color: hsl(var(--body-color), 8%, 38%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 104, 4, 0.438);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:rgba(255, 104, 4, 0.687);
 }

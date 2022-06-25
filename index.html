@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
   <link rel="stylesheet" href="/style.css">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -51,7 +52,8 @@
   </nav>
 
   <!-- ====== MAIN ======= -->
-  <div class="container">
+
+  <div class="container gray-100">
     <div class="row">
       <div class="col-sm-5 col-md-6 journey">
         <h1>Get Started your</h1>
@@ -105,116 +107,229 @@
   </div>
 
   <!--  ==== EXPLORER ==== -->
-  <nav class="navbar navbar-expand-lg explorer">
-    <div class="container-fluid explo">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <span>Location</span>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <div class="location">
-            <p>Where are you going</p>
-          </div>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <span class="date">Date</span>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <div class="datep">
-            <p>When you will go</p>
-          </div>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <span class="guest">Guest</span>
-            </a>
 
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <div class="guestp">
-            <p>Number of Guest</p>
-          </div>
-        </ul>
-        <form class="d-flex" role="search">
-          <button class="explore_btn" type="submit">Explore now</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <div class="container-explorer lg">
+    <nav class="navbar navbar-expand-lg explorer">
+      <div class="container-fluid explo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="row">
+            <div class="col">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>Location</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <div class="location">
+                  <p>Where are you going</p>
+                </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="date">Date</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <div class="datep">
+                  <p>When you will go</p>
+                </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="guest">Guest</span>
+                  </a>
 
-  <!-- ====== Section 1 ======== -->
-  <div class="seccion_1">
-    <div class="section1">
-      <h1 class="text-center titulo">Things you need <span class="todoH1">to do</span></h1>
-      <p class="parrafo1">We ensure that you'll embark on a perfectly plannd, safe vocation at a price you can
-        afford.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 w-75 m-auto mb-5">
-      <div class="col">
-        <div class="card ">
-          <img src="./assets/Group(2).png" width="46.57" height="48" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fw-bold mt-5"><span>Sign Up</span></h5>
-            <p class="card-text">Completes all the work associated br with planning and processing</p>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <div class="guestp">
+                  <p>Number of Guest</p>
+                </div>
+              </ul>
+
+            </div>
+            <div class="col">
+              <form class="d-flex" role="search">
+                <button class="explore_btn" type="submit">Explore now</button>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- ====== THINGS YOU NEED ======== -->
+    <div class="seccion_1">
+      <div class="section1">
+        <h1 class="text-center titulo">Things you need <span class="todoH1">to do</span></h1>
+        <p class="parrafo1">We ensure that you'll embark on a perfectly plannd, safe vocation at a price you can
+          afford.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 w-75 m-auto mb-5">
+        <div class="col">
+          <div class="card card-thing">
+            <img src="./assets/Group(2).png" width="46.57" height="48" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mt-5"><span>Sign Up</span></h5>
+              <p class="card-text">Completes all the work associated br with planning and processing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-thing">
+            <img src="./assets/Group.png" width="46.57" height="48" class="section1_img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mt-5"><span>Worth of Money</span></h5>
+              <p class="card-text">After succesful acces then book from exclusive deals & pricing</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-thing">
+            <img src="./assets/Group(1).png" width="46.57" height="48" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold mt-5"><span>Exciting Travel</span></h5>
+              <p class="card-text">Start and explore a widi range exceting travel experience</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./assets/Group.png" width="46.57" height="48" class="section1_img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fw-bold mt-5"><span>Worth of Money</span></h5>
-            <p class="card-text">After succesful acces then book from exclusive deals & pricing</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./assets/Group(1).png" width="46.57" height="48" alt="...">
-          <div class="card-body">
-            <h5 class="card-title fw-bold mt-5"><span>Exciting Travel</span></h5>
-            <p class="card-text">Start and explore a widi range exceting travel experience</p>
-          </div>
-        </div>
-      </div>
+
     </div>
 
     <!-- ===== BEST VACATION PLAN ===== -->
-    <div class="vacation-title">
-      <h1>Best <span>vacation plan</span></h1>
-      <p>Plan your perfect vacation with our travel agency. Choose amoung hundreds of all-inclusive offers!</p>
-      <div class="buttons_vacation">
-        <button class="btn-left"><i class='bx bx-left-arrow-alt'></i></button>
-        <button class="btn-right"><i class='bx bx-right-arrow-alt'></i></button>
+    <div class="vacation-container">
+      <div class="vacation-title">
+        <h1>Best <span>vacation plan</span></h1>
+        <p>Plan your perfect vacation with our travel agency. Choose amoung hundreds of all-inclusive offers!</p>
+        <div class="buttons_vacation">
+          <button class="btn-left"><i class='bx bx-left-arrow-alt'></i></button>
+          <button class="btn-right"><i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 w-75 m-auto mb-5">
+          <div class="col">
+            <div class="card card-vacation">
+              <img src="./assets/pexels-vacation.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <h5 class="card-title fw-bold">Rome, Italy</h5>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title fw-bold"><span>$5,42k</span></h6>
+                  </div>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <p> <span><i class='bx bx-navigation'></i></span> 10 days Trip</p>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title "><span class="icon-star"><i class='bx bxs-star'></i></span> 4.8</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-vacation">
+              <img src="./assets/pexels-vacation2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <h5 class="card-title fw-bold">London,UK</h5>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title fw-bold"><span>$2,42k</span></h6>
+                  </div>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <p> <span><i class='bx bx-navigation'></i></span> 07 days Trip</p>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title "><span class="icon-star"><i class='bx bxs-star'></i></span> 4.7</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-vacation">
+              <img src="./assets/pexels-vacation3.jpg" class="card-img-top">
+              <div class="card-body">
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <h5 class="card-title fw-bold">Osaka, Japan</h5>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title fw-bold"><span>$8,42k</span></h6>
+                  </div>
+                </div>
+                <div class="row justify-content-between">
+                  <div class="col">
+                    <p> <span><i class='bx bx-navigation'></i></span> 12 days Trip</p>
+                  </div>
+                  <div class="col">
+                    <h6 class="card-title "><span class="icon-star"><i class='bx bxs-star'></i></span> 4.5</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <!-- ========= FOOTER ========== -->
+      <div class="footer-container">
+        <div class="row w-75 row-social">
+          <div class="col">
+            <div class="logo-footer">
+              <img src="/assets/Logo.png" />
+            </div>
+            <div>
+              <p>Book your trip in a minute, get full control for much longer.</p>
+            </div>
+            <div class="row social-btns">
+              <div class="col social"><i class='bx bxl-facebook-circle'></i></div>
+              <div class="col social social-i"><i class='bx bxl-instagram'></i></div>
+              <div class="col social"><i class='bx bxl-twitter'></i></div>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+
 
 </body>
 <!-- JavaScript Bundle with Popper -->
