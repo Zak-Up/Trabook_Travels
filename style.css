@@ -13,6 +13,14 @@
   color: #FA7436 !important;
 }
 
+.logo{
+  margin-left: 4rem;
+}
+
+.form_nav{
+  margin-right: 4rem !important;
+}
+
 .journey{
   margin-top: 5rem !important;
 }
@@ -68,7 +76,7 @@
   position: absolute;
   width: 150px;
   height: 50px;
-  background-color: rgb(249, 248, 248);
+  background-color: rgb(255, 255, 255);
   z-index: 999;
   margin-top: 22rem;
   margin-left: 3rem;
@@ -109,7 +117,7 @@
   width: 150px;
   height: 50px;
   margin-top: 8rem;
-  background-color: rgb(249, 248, 248);
+  background-color: rgb(255, 255, 255);
   z-index: 999;
   border-radius: 5px;
   box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.216);
@@ -148,7 +156,7 @@
   height: 60px;
   margin-top: 16rem;
   margin-left: 22rem;
-  background-color: rgb(249, 248, 248);
+  background-color: rgb(255, 255, 255);
   z-index: 999;
   border-radius: 5px;
   box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.216);
@@ -204,7 +212,7 @@
 
 .explorer span{
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.398);
+  color: rgba(0, 0, 0, 0.718);
 }
 
 .explorer a{
@@ -564,6 +572,23 @@
     .buttons_vacation button {
       display: none;
     }
+
+    .social-i {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .social-t {
+      margin-right: 0.5rem;
+    }
+
+    .copyright{
+      text-align: center;
+    }
+
+    .row-social{
+     margin-left: 10% !important;
+     }
 
 }
 
