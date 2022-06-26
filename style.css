@@ -397,6 +397,156 @@
 }
 
 
+/*  ============ WHAT PEOPLE SAY =========== */
+.section2J {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+}
+
+.section2J__cont1 {
+  margin: 30px;
+  margin-right: 2rem;
+}
+
+.section2J__cont2{
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.button_carousel1J {
+  margin-top: 320px;
+}
+
+.button_carousel2J {
+  margin-top: 320px;
+  margin-right: 73%;
+}
+
+.section2J__icon1 {
+  border-radius: 50%;
+  background-color: #666666;
+}
+
+.section2J__icon2 {
+  border-radius: 50%;
+  background-color: #FA7436 !important;
+}
+
+.section2J__titl1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.section2J__titl2 {
+  color: #FA7436;
+}
+
+.section2J__parr1 {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.section2J__cont2_img {
+  display: flex;
+  margin-top: -60px;
+  margin-left: -50px;
+}
+
+.section2J__cont2-card1 {
+  box-shadow: 46px 46px 46px 26px rgba(0, 0, 0, 0.094);
+  width: 500px;
+  z-index: 900;
+}
+
+.section2J__cont2_tiitl1 {
+  margin-left: 9px;
+}
+
+.section2J__cont2-card2 {
+  height: 280px;
+  margin-left: 50px;
+  background-color: #c5c6c979;
+  margin-top: -200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.044);
+}
+
+.section2J__cont2-text {
+  margin-top: 140px;
+}
+
+.text1 {
+  font-size: 18px;
+}
+
+.text12 {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-left: 0.5rem;
+  color: #66666659;
+}
+
+.section2J__cont2_img_edit{
+  border-radius: 50%;
+}
+
+.jp{
+  font-weight: 600;
+}
+
+.pakistan{
+  color: #666666;
+  margin-left: 0.5rem;
+}
+
+.chris{
+  color: #6666669b;
+}
+
+.buttons_people{
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.buttons_people button{
+  margin-top: 0.5rem;
+    display: inline;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    color: rgba(0, 0, 0, 0.209);
+}
+
+.buttons_people button:hover {
+  background-color: #FA7436;
+  border: none;
+  color: #F7F8FC;
+  transition: 600ms;
+}
+
+.people_right{
+  margin-right: 18rem;
+  margin-left: 1rem;
+}
+
+.comment_gif{
+  position: absolute;
+}
+
+.comment_gif img{
+    width: 140px;
+    margin-left: 20rem;
+}
+
+
 
 /*   =========== FOOTER =========== */
 .footer-container{
