@@ -212,19 +212,18 @@
 }
 
 .explore_btn{
-  background-color: #FA7436 !important;
+  background-color: transparent !important;
+  border: 1px solid #FA7436;
   width: 120px;
   font-weight: bold;
-  color: #fff;
+  color: #FA7436;
   border-radius: 5px;
   padding: 10px;
-  border: none;
 }
 
 .explore_btn:hover{
-  background-color: transparent !important;
-  border: 1px solid #FA7436;
-  color: #FA7436;
+  background-color: #FA7436 !important;
+  color: #fff;
 }
 
 .location{
@@ -344,14 +343,15 @@
   width: 40px;
   height: 40px;
   font-size: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.334);
-  color: rgba(0, 0, 0, 0.364);
+  border: 1px solid rgba(0, 0, 0, 0.202);
+  color: rgba(0, 0, 0, 0.209);
 }
 
 .buttons_vacation button:hover{
   background-color: #FA7436;
   border: none;
   color: #F7F8FC;
+  transition: 600ms;
 }
 
 .btn-right{
@@ -388,6 +388,8 @@
   font-size: 15px;
 }
 
+
+
 /*   =========== FOOTER =========== */
 .footer-container{
   background-color: #F7F8FC;
@@ -396,24 +398,100 @@
 }
 
 .row-social{
-  margin-left: 15% !important;
+  margin-left: 12% !important;
+}
+
+.book p{
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.529);
 }
 
 .social{
-  width: 40px;
-  height: 40px;
-  background-color: #FA7436;
+  display: flex;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: white;
   border-radius: 50%;
-  text-align: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.112);
+}
+
+.social:hover{
+  background-color: #FA7436;
+  color: #F7F8FC;
+  transition: 1s;
 }
 
 .social-btns{
+  position: relative !important;
   height: 60px !important;
 }
 
 .social-i{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.social-t{
+  margin-right: 19rem;
+}
+
+.bxl-facebook-circle{
+  position: absolute;
+  margin-top: 9px;
+  font-size: 25px;
+  margin-left: 3px;
+}
+
+.bxl-instagram{
+  position: absolute;
+  margin-top: 9px;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.bxl-twitter{
+  position: absolute;
+  margin-top: 9px;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.col-2-company a{
+  text-decoration: none;
+}
+
+.col-2-company h6{
+  font-weight: bolder;
+}
+
+.col-2-company p{
+  color: rgba(0, 0, 0, 0.581);
+  font-weight: lighter;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.col-2-company a h6{
+  margin-left: 2rem !important;
+}
+
+.about-p{
+  margin-top: 2.5rem;
+}
+
+.copyright p{
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+}
+
+
+.rights{
+  display: inline;
+  margin-left: 3rem;
+  margin-right: 36rem;
 }
 
 /* ---====== For Small Devices ======--- */
