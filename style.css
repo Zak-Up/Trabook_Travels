@@ -383,6 +383,7 @@
 .deal_btn{
   display: flex;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .buttons_deal{
@@ -653,6 +654,7 @@
 /* =========== UPDATES =========== */
 .updates {
   background: #FEFCFB;
+  padding-bottom: 2rem;
 }
 
 .updates-card {
