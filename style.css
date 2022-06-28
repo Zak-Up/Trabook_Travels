@@ -310,6 +310,110 @@
   margin-left: 0.5rem;
 }
 
+/*         ========= DEALS ========         */
+.deals {
+  background: #FEFCFB;
+}
+
+.deals h1 {
+  color: #222222;
+  font-family: 'Volkhov', serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: auto;
+  /* line-height: 54px; */
+}
+
+.deals span {
+  color: #FD8D3A;
+}
+
+.deals-desc {
+  width: 433px;
+  margin: auto;
+  margin-top: 24px;
+  padding: 3px;
+  color: #666666;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+/*  ----   deals-card   ------  */
+.deals-card {
+  /* outline: 1px solid salmon; */
+  width: 270px;
+  height: 426px;
+}
+
+.deals-card img:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.start {
+  width: 16px;
+  height: 16px;
+}
+
+.rating {
+  margin-bottom: 0;
+}
+
+.pin {
+  width: 12.57px;
+  height: 16px;
+}
+
+.price-before {
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.price-now {
+  color: #FA7436;
+}
+
+/*  ---------------------------  */
+
+.deal_btn{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons_deal{
+  margin-top: 0.5rem;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.buttons_deal button {
+  margin-top: 0.5rem;
+  display: inline;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.202);
+  color: rgba(0, 0, 0, 0.209);
+}
+
+.buttons_deal button:hover {
+  background-color: #FA7436;
+  border: none;
+  color: #F7F8FC;
+  transition: 600ms;
+}
+
+.deal_left{
+  margin-left: 12rem;
+}
+
 /*           ====== VACATION PLAN ======           */
 
 .vacation-title{
@@ -546,78 +650,123 @@
     margin-left: 20rem;
 }
 
+/* =========== UPDATES =========== */
+.updates {
+  background: #FEFCFB;
+}
 
+.updates-card {
+  /* outline: 1px solid salmon; */
+  width: 270px;
+  height: 426px;
+}
+
+.updates-card img:hover {
+  /* filter: brightness(50%); */
+  cursor: pointer;
+}
+
+.updates h1 {
+  color: #222222;
+  font-family: 'Volkhov', serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: auto;
+  line-height: 54px;
+}
+
+.updates span {
+  color: #FD8D3A;
+}
+
+.updates p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #222222;
+}
+
+.updates p:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999999;
+}
+
+.o-circle {
+  width: 14px;
+  height: 14px;
+  background-color: #FA7436;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.g-circle {
+  width: 10px;
+  height: 10px;
+  background: #E5E5E5;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 
 /* =========== SUBSCRIBE CARD ========= */
-.email{
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
 
-.subscribe-container{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 6rem;
-  padding-bottom: 6rem;
-}
-
-.subscribe_card {
+.subscribe {
   position: absolute;
-  background-color: #FA7436;
-  background-image:
-    radial-gradient(at 0% 0%, rgba(255, 144, 59, 0.853) 0, transparent 50%),
-    radial-gradient(at 50% 0%, rgba(255, 86, 2, 0.653) 0, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(255, 149, 62, 0.85) 0, transparent 50%);
-  width: 950px;
-  height: 390px;
-  border-radius: 16px;
+  background-image: url(./assets/Subscribe.png);
+  width: 1170px;
+  height: 416px;
+}
+
+.subscribe h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  margin: auto;
+  line-height: 62px;
+  width: 708px;
   text-align: center;
 }
 
-.subscribe_card h2{
-  margin-top: 4rem;
-  color: #fff;
-  font-size: 48px;
-  font-weight: 600;
+.input-wraper {
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 674px;
+  height: 68px;
 }
 
-.newsletter__subscribe {
-  display: flex;
-  column-gap: .5rem;
-  background-color: #fff;
-  padding: .5rem;
-  border-radius: .5rem;
-  width: 60%;
+.subscribe form {
+  width: 100%;
 }
 
-.newsletter__input {
-  outline: none;
+.email-icon {
+  width: 28px;
+}
+
+.subscribe input:focus {
+  box-shadow: none;
   border: none;
-  width: 90%;
 }
 
-.newsletter__input::placeholder {
-  color: rgba(77, 77, 77, 0.51);
-  font-weight: 400;
-}
-
-.button_subscribe{
+.subscribe-btn {
+  width: 132px;
+  height: 50px;
+  color: #FFFFFF;
+  border: none;
   background-color: #FA7436;
-  padding: .5rem;
-  color: #fff;
   border-radius: 5px;
-  text-decoration: none;
-  font-weight: 700;
-  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.button_subscribe:hover{
-  border: 1px solid #FA7436;
-  background-color: #fff;
-  color: #FA7436;
-  transition: 1s;
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  padding-bottom: 10rem;
 }
 
 /*   =========== FOOTER =========== */
